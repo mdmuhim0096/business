@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>BizBud</title>
+    <style>
+        body::-webkit-scrollbar {
+            width: 0;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 scroll-smooth">
+
+    <header class="sticky top-0 left-0 z-50 backdrop-blur-md">
+        <nav class="flex justify-between items-center w-full h-auto shadow-md px-1 md:px-4 py-2">
+            <div class="w-10 h-10 cursor-pointer">
+                <h1 class="p-2 font-bold text-white text-xl">BizBud</h1>
+            </div>
+            <ul id="menulist"
+                class="hidden bg-blue-500 lg:bg-transparent z-10 absolute px-4 py-6 backdrop-blur-xl lg:backdrop-blur-none left-0 top-[100%] w-full shadow-md lg:shadow-none lg:static lg:flex lg:w-auto lg:p-0 gap-10 justify-end">
+                <li
+                    class="my-2 hover:bg-blue-400 lg:hover:bg-transparent list-none capitalize text-white cursor-pointer">
+                    home</li>
+                <li
+                    class="my-2 hover:bg-blue-400 lg:hover:bg-transparent list-none capitalize text-white cursor-pointer">
+                    service</li>
+                <li
+                    class="my-2 hover:bg-blue-400 lg:hover:bg-transparent list-none capitalize text-white cursor-pointer">
+                    about</li>
+                <li
+                    class="my-2 hover:bg-blue-400 lg:hover:bg-transparent list-none capitalize text-white cursor-pointer">
+                    testimonials</li>
+                <li
+                    class="my-2 hover:bg-blue-400 lg:hover:bg-transparent list-none capitalize text-white cursor-pointer">
+                    clients</li>
+                <li
+                    class="my-2 hover:bg-blue-400 lg:hover:bg-transparent list-none capitalize text-white cursor-pointer">
+                    contact</li>
+                <button class="btn mlg:w-40 mlg:h-auto mlg:rounded-full mlg:bg-green-400
+                mlg:text-white mlg:hover:bg-green-600 mlg:capitalize mlg:text-sm">call now</button>
+            </ul>
+
+            <div id="menuBtn" class="w-10 h-10 p-2 lg:hidden">
+                <ion-icon id="menuorclose" class="text-white text-xl sm:text-2xl" name="grid-outline"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <h1>The Power <br> of Good Advice</h1>
+        <p class="sm:w-10/12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veniam voluptatem, hic
+            recusandae ipsa rem officiis.</p>
+        <button class="btn">learn more</button>
+    </section>
+
+    <section>
+        <h4 class="text-center">service</h4>
+        <h2 class="text-center">Taking Your Business to <br>the Next Level</h2>
+        <div class="customgrid">
+            <div class="text-justify">
+                <div class="w-full h-auto flex justify-center">
+                    <div
+                        class="w-16 h-16 rounded-full bg-violet-600 
+                after:content-[''] after:absolute relative after:w-20 after:h-20 after:rounded-full after:bg-violet-400 after:-z-10 after:left-2 after:top-2 mb-20">
+                    </div>
+                </div>
+                <span>Business Plans</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam quisquam quis sunt nostrum officia
+                facilis praesentium modi quibusdam, aspernatur esse cumque non! Excepturi deserunt, modi a eius eveniet
+                officiis.
+            </div>
+
+            <div class="text-justify">
+                <div class="w-full h-auto flex justify-center">
+                    <ion-icon class="text-8xl text-green-400" name="shapes-sharp"></ion-icon>
+                </div>
+                <br><br>
+                <span>Accounting Services</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam
+                quisquam
+                quis sunt nostrum officia facilis praesentium modi quibusdam, aspernatur esse cumque non! Excepturi
+                deserunt, modi a eius eveniet officiis.
+            </div>
+            <div class="text-justify">
+                <div class="w-full h-auto flex justify-center">
+                    <div class="w-16 h-16  bg-blue-400 
+            after:content-['']
+             after:absolute relative 
+             after:w-20 after:h-20  after:bg-yellow-300 after:-z-10 after:left-2 after:top-2 mb-20">
+                    </div>
+                </div>
+                <span>Finance Optimization</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam
+                quisquam
+                quis sunt nostrum
+                officia
+                facilis praesentium modi quibusdam, aspernatur esse cumque non! Excepturi deserunt, modi a eius eveniet
+                officiis.
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#16163f] py-32">
+        <h2 class="text-white">We’re Good with Numbers</h2>
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center mx-auto items-center gap-10 w-full h-auto">
+            <div class="text-center">
+                <h3 class="text-white text-8xl my-5 font-semibold">17</h3>
+                <h6>Years of Experience</h6>
+            </div>
+            <div class="w-5 h-5 rounded-full bg-lime-600 mx-auto md:hidden"></div>
+            <div class="text-center">
+                <h3 class="text-white text-8xl my-5 font-semibold">297</h3>
+                <h6>Qualified Experts</h6>
+            </div>
+            <div class="w-5 h-5 rounded-full bg-lime-600 mx-auto md:hidden"></div>
+            <div class="text-center">
+                <h3 class="text-white text-8xl my-5 font-semibold">150</h3>
+                <h6>Clients Every Year</h6>
+            </div>
+            <div class="w-5 h-5 rounded-full bg-lime-600 mx-auto md:hidden"></div>
+            <div class="text-center">
+                <h3 class="text-white text-8xl my-5 font-semibold">25</h3>
+                <h6>Intl. Partners</h6>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h4>about</h4>
+        <h2 class="text-left">Our Experts Are the Finest</h2>
+        <p class="md:w-10/12 w-full py-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti temporibus
+            velit nemo a suscipit quo incidunt iste voluptatibus neque enim porro eaque ipsam exercitationem recusandae
+            nihil, quos odit consectetur! Assumenda possimus rem modi quasi esse earum unde sed eius voluptates rerum
+            cum, placeat omnis quaerat, tempora praesentium aliquid officia perferendis, ex cumque autem in ea? Vel
+            suscipit unde et, ratione eligendi ipsum. Harum eligendi hic quo ipsam vitae modi magni!</p>
+    </section>
+
+    <section class="py-32">
+        <h4 class="text-center">TESTIMONIALS</h4>
+        <h2>“I'm a testimonial. Click to edit me and add text”</h2>
+    </section>
+
+    <section class="px-0">
+        <div class="w-full h-20 bg-indigo-500 border-b border-white">
+            <h6 class="text-center pt-10">OUR HAPPY CLIENTS</h6>
+        </div>
+        <div
+            class="w-full bg-indigo-600 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-center mx-auto items-center gap-10 h-auto text-indigo-800 font-extrabold italic text-4xl py-20 text-center">
+            <div class="flex justify-center hover:text-white cursor-default not-italic">
+                <div class="mx-2">BAR</div>
+                <div>121</div>
+            </div>
+            <div class="hover:text-white cursor-default font-sans">HUNTER</div>
+            <div class="hover:text-white cursor-default font-serif">Locographix</div>
+            <div class="hover:text-white cursor-default">Mid Dreams</div>
+            <div class="hover:text-white cursor-default font-mono">DEV JONES</div>
+        </div>
+    </section>
+
+    <section class="flex flex-col md:flex-row gap-5">
+        <div class="md:w-1/2">
+            <h4>contact</h4>
+            <h2 class="text-left">Let’s Work Together</h2>
+            <p class="py-0 text-xl">500 Terry Francine St. San Francisco, CA 94158
+                <br>
+                info@mysite.com
+                <br>
+                Tel: 123-456-7890
+            </p>
+            <div class="flex justify-start gap-5 my-6 items-center text-2xl md:text-4xl text-white">
+                <ion-icon class="hover:animate-bounce cursor-pointer hover:scale-125" name="logo-linkedin"></ion-icon>
+                <ion-icon class="hover:animate-bounce cursor-pointer hover:scale-125" name="logo-facebook"></ion-icon>
+                <ion-icon class="hover:animate-bounce cursor-pointer hover:scale-125" name="logo-xing"></ion-icon>
+                <ion-icon class="hover:animate-bounce cursor-pointer hover:scale-125" name="logo-twitter"></ion-icon>
+            </div>
+        </div>
+        <div class="md:w-1/2 h-auto">
+            <form action="#" class="flex flex-col gap-4">
+                <input type="text" placeholder="name"
+                    class="h-12 placeholder:capitalize bg-transparent w-full ring-1 rounded-md  ring-teal-300 placeholder:text-white px-3 py-1">
+                <input type="email" placeholder="email"
+                    class="h-12 placeholder:capitalize bg-transparent w-full ring-1 rounded-md  ring-teal-300 placeholder:text-white px-3 py-1">
+                <textarea type="text" placeholder="write message"
+                    class="placeholder:capitalize bg-transparent w-full h-32 ring-1 rounded-md  ring-teal-300 placeholder:text-white px-3 py-1"></textarea>
+                <input class="btn" type="submit" value="send" />
+            </form>
+        </div>
+
+    </section>
+    <section class="px-0 py-0 md:px-4">
+        <iframe class="w-full"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91883.41005779903!2d90.31664014900055!3d23.99712877662054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dafdd8aa72a1%3A0xe3a23793cb030fdb!2sGazipur!5e1!3m2!1sen!2sbd!4v1734131125023!5m2!1sen!2sbd"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="py-0 bg-blue-400">
+        <h6 class="m-0 sm:py-2 text-center">© 2035 by BizBud. Powered and secured by NodeJs</h6>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
